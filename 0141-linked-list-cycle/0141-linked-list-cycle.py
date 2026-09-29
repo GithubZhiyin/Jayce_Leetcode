@@ -6,7 +6,7 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        # solution.2 Using Floyd's circle
+        # solution.3 Using Floyd's circle (simplified)
 
         if not head or not head.next:
             return False
@@ -21,10 +21,3 @@ class Solution:
             fast = fast.next
             slow = slow.next 
         return fast == slow
-            
-
-
-
-        
-
-        
