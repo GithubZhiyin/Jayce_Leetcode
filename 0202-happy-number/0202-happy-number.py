@@ -1,12 +1,19 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        seen = set()
-
-        while n != 1 and n not in seen:
-            seen.add(n)
-            n = sum( int(num) ** 2 for num in str(n) )
+        def get_next(n):
+            ans = 0
+            while n > 0:
+                n, d = divmod(n, 10)
+                ans += d * d
+            return ans
         
-        return n == 1
+        slow, fast = n, get_next(n)
+        while slow != fast and fast != 1:
+            slow = get_next(slow)
+            fast = get_next(get_next(fast))
+        
+        return fast == 1
+
 
                 
 
