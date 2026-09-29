@@ -6,15 +6,23 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        # solution_1: Using set to collect the visted nodes
-        seen = set()
-        curr = head
-        while curr:
-            seen.add(curr)
-            curr = curr.next
-            if curr in seen:
-                return True
-        return False
+        # solution.2 Using Floyd's circle
+
+        if not head or not head.next:
+            return False
+        
+        fast = head.next
+        slow = head
+
+        while fast != slow and fast.next:
+            fast = fast.next
+            if not fast.next:
+                break
+            fast = fast.next
+            slow = slow.next 
+        return fast == slow
+            
+
 
 
         
