@@ -12,7 +12,7 @@ class Solution:
             if (i, target) in memo:
                 return memo[(i, target)]
 
-            if i >= len(nums):
+            if i >= len(nums) or target < 0:
                 return False
             if target == 0:
                 return True
