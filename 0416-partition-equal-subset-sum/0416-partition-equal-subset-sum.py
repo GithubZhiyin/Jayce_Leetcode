@@ -1,33 +1,25 @@
 class Solution:
     def canPartition(self, nums: list[int]) -> bool:
 
-        total = sum(nums)
-        if total % 2 != 0:
+        num_sum = sum(nums)
+        if num_sum % 2 != 0:
             return False
-        target = total // 2
-        n = len(nums)
+        target = num_sum // 2
+
         memo = {}
 
-        def dfs(i, remain):
-            if remain == 0:
-                return True
-            if i == n or remain < 0:
+        def dfs(i, target):
+            if (i, target) in memo:
+                return memo[(i, target)]
+
+            if i >= len(nums):
                 return False
-            if (i, remain) in memo:
-                return memo[(i, remain)]
+            if target == 0:
+                return True
+            
+            res = dfs(i + 1, target - nums[i]) or dfs(i + 1, target)
+            memo[(i, target)] = res
 
-            res = dfs(i + 1, remain - nums[i]) or dfs(i + 1, remain)
-            memo[(i, remain)] = res
             return res
-
-        return dfs(0, target)
-
-            
-
-            
-
-
-
-
-
         
+        return dfs(0, target)
