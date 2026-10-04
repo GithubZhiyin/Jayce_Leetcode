@@ -1,0 +1,39 @@
+#这个方法正确性上没有问题但是超时了
+
+class Solution:
+    def canMakePaliQueries(self, s: str, queries: list[list[int]]) -> list[bool]:
+        ans = []
+        memo = {}
+
+        def pair_count(s):
+            s_ = sorted(s)
+            count = 0
+            i = 0
+            while i < len(s_) - 1:
+                if s_[i] == s_[i + 1]:
+                    count += 1
+                    i += 2
+                else:
+                    i += 1
+            return count 
+
+        for query in queries:
+            if (query[0], query[1]) in memo:
+                pair = memo[(query[0], query[1])]
+            else:
+                pair = pair_count(s[query[0]: query[1] + 1])
+                memo[(query[0], query[1])] = pair
+
+            length = query[1] - query[0] + 1
+            pair_length = pair * 2 + min(length - pair * 2, query[2] * 2)
+            if length % 2 == 0:
+                ans.append(pair_length >= length)
+            elif length % 2 == 1:
+                ans.append(pair_length + 1 >= length)
+        
+        return ans 
+
+            
+
+                
+            
