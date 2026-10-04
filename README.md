@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -60,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
+## Graph Coloring
+|  |
+| ------- |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 <!---LeetCode Topics End-->
