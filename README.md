@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0001-two-sum) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
 ## Hash Table
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0069-sqrtx) |
 ## Newton's Method
 |  |
