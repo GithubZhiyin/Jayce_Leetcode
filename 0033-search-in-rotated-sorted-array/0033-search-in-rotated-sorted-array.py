@@ -7,23 +7,24 @@ class Solution:
             m = l + (r - l) // 2
 
             if nums[m] == target:
-                return m
-
-            # 左半边有序
+                return m 
+            
             if nums[l] <= nums[m]:
                 if nums[l] <= target < nums[m]:
                     r = m - 1
                 else:
                     l = m + 1
-
-            # 右半边有序
-            else:
+            
+            if nums[m] <= nums[r]:
                 if nums[m] < target <= nums[r]:
                     l = m + 1
                 else:
-                    r = m - 1
-
-        return l if nums[l] == target else -1
+                    r = m - 1 
+        
+        return r if nums[r] == target else -1
+        
+        
+                    
    
 
 
