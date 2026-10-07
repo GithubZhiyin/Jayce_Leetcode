@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0141-linked-list-cycle](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0202-happy-number) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0020-valid-parentheses) |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
 ## Stack
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 ## Knapsack Problem
@@ -121,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
