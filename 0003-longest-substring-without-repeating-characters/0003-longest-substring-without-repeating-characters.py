@@ -1,15 +1,15 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         l, r = 0, 0 
-        hash_table = {}
-
+        last = {}
         max_len = 0
+
         while r < len(s):
-            if s[r] not in hash_table:
-                hash_table[s[r]] = r
-                r += 1
-            else:
-                max_len = max(r - l, max_len)
-                l, r = hash_table[s[r]] + 1, hash_table[s[r]] + 1
-                hash_table = {}
-        return max(r - l, max_len)  
+            if s[r] in last and l <= last[s[r]]:
+                max_len = max(max_len, r - l)
+                l = last[s[r]] + 1
+            last[s[r]] = r
+            r += 1
+        
+        return max(r - l, max_len)
+            
