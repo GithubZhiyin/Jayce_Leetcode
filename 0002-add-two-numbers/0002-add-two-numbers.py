@@ -8,30 +8,19 @@ class Solution:
 
         ans = ListNode(0)
         curr = ans 
-        add_ = 0 
-        while l1 and l2:
-            sum_ = (l1.val + l2.val + add_) % 10
-            add_ = (l1.val + l2.val + add_) // 10
-            curr.next = ListNode(sum_)
-            l1 = l1.next
-            l2 = l2.next
-            curr = curr.next
+        carry = 0
 
-        while l1:
-            sum_ = (l1.val + add_) % 10
-            add_ = (l1.val + add_) // 10
-            curr.next = ListNode(sum_)
-            curr = curr.next
-            l1 = l1.next
-        
-        while l2:
-            sum_ = (l2.val + add_) % 10
-            add_ = (l2.val + add_) // 10
-            curr.next = ListNode(sum_)   
-            curr = curr.next
-            l2 = l2.next
-        
-        if add_ > 0:
-            curr.next = ListNode(add_)
+        while l1 or l2 or carry != 0:
+            num_1 = l1.val if l1 else 0
+            num_2 = l2.val if l2 else 0
+            add = (num_1 + num_2 + carry) % 10
+            carry = (num_1 + num_2 + carry) // 10
 
+            curr.next = ListNode(add)
+            if l1: l1 = l1.next
+            if l2: l2 = l2.next
+            curr = curr.next
         return ans.next
+
+
+            
