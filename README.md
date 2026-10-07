@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0069-sqrtx) |
 | [0202-happy-number](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0202-happy-number) |
 ## Two Pointers
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0002-add-two-numbers) |
 | [0141-linked-list-cycle](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0142-linked-list-cycle-ii) |
 ## String
@@ -109,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0069-sqrtx) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
