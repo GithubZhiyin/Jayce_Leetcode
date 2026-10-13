@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0014-longest-common-prefix) |
 | [0033-search-in-rotated-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0035-search-insert-position) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0008-string-to-integer-atoi) |
+| [0014-longest-common-prefix](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0020-valid-parentheses) |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
 ## Stack
@@ -145,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0011-container-with-most-water) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
