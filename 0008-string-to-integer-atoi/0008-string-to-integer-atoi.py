@@ -1,0 +1,29 @@
+class Solution:
+    def myAtoi(self, s: str) -> int:
+        INT_MAX, INT_MIN = 2 ** 31 - 1, - 2 ** 31
+        i, n = 0, len(s)
+
+        while i < n and s[i] == ' ':
+            i += 1
+        
+        sign = 1
+        if i < n and s[i] in '+-':
+            sign = -1 if s[i] == '-' else 1
+            i += 1
+                     
+        num = 0
+        while i < n and '0' <= s[i] <= '9':
+            digit = ord(s[i]) - ord('0')
+
+            if sign == 1:
+                if num > (INT_MAX - digit) // 10:
+                    return INT_MAX
+            else:
+                if num > (INT_MIN + digit) // -10: 
+                    return INT_MIN
+            num = num * 10 + digit
+            i += 1
+
+        return sign * num
+                
+        
