@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0009-palindrome-number) |
 | [0069-sqrtx](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0069-sqrtx) |
 | [0202-happy-number](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0202-happy-number) |
 ## Two Pointers
