@@ -1,23 +1,12 @@
 class Solution:
     def intToRoman(self, num: int) -> str:
-        info = [['I', 'V'], ['X', 'L'], ['C', 'D'], ['M'] ]
 
-        ans = ''
-        i = 0 
- 
-        while num > 0:
-            curr = num % 10
-            if curr == 4:
-                ans += info[i][1] + info[i][0]
-            elif curr == 9:
-                ans += info[i + 1][0] + info[i][0]
-            elif curr < 5:
-                ans += curr * info[i][0]
-            elif curr >= 5:
-                ans += (curr - 5) * info[i][0] + info[i][1]
-            num //= 10 
-            i += 1
-        
-        return ans[::-1]
 
+        res = ''
+        data = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]
+        for (v,s) in data:
+            if num // v > 0:
+                res += s * (num // v)
+                num %= v
+        return res
 
