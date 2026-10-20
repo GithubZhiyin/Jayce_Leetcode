@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Stack
 |  |
 | ------- |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 ## Manacher
 |  |
 | ------- |
