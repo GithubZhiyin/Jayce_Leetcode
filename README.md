@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
+| [3393-count-paths-with-the-given-xor-value](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/3393-count-paths-with-the-given-xor-value) |
 ## Hash Table
 |  |
 | ------- |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0022-generate-parentheses) |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [3393-count-paths-with-the-given-xor-value](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/3393-count-paths-with-the-given-xor-value) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1177-can-make-palindrome-from-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1177-can-make-palindrome-from-substring) |
+| [3393-count-paths-with-the-given-xor-value](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/3393-count-paths-with-the-given-xor-value) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0048-rotate-image) |
+| [3393-count-paths-with-the-given-xor-value](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/3393-count-paths-with-the-given-xor-value) |
 ## Divide and Conquer
 |  |
 | ------- |
