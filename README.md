@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0035-search-insert-position) |
+| [0045-jump-game-ii](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0048-rotate-image) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0162-find-peak-element) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0045-jump-game-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [3393-count-paths-with-the-given-xor-value](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/3393-count-paths-with-the-given-xor-value) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/GithubZhiyin/Jayce_Leetcode/tree/master/0045-jump-game-ii) |
 ## Trie
 |  |
 | ------- |
